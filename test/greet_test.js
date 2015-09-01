@@ -14,6 +14,6 @@ describe('greet', function(){
 describe('greet exports', function(){
 	it("should return a capital letter", function(){
 		var character = greetExports.greet()
-		expect(character).to.eql("Hello, Mr. " + character.toUpperCase());
+		expect(character).to.eql(character.toUpperCase());
 	});
 });
